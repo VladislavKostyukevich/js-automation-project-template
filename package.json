@@ -1,0 +1,29 @@
+{
+  "name": "js-automation-project-template",
+  "version": "1.0.0",
+  "description": "js-automation-project-template",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavKostyukevich/js-automation-project-template.git"
+  },
+  "keywords": [
+    "js",
+    "automation"
+  ],
+  "author": "vladislav kostyukevich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VladislavKostyukevich/js-automation-project-template/issues"
+  },
+  "homepage": "https://github.com/VladislavKostyukevich/js-automation-project-template#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
