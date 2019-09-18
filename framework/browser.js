@@ -1,7 +1,8 @@
 const webdriver = require('selenium-webdriver');
+const publicURL = 'localhost'
 const getDriver = () => new webdriver.Builder()
 .forBrowser('firefox')
-.usingServer(`http://localhost:4444/wd/hub`)
+.usingServer(`https://${publicURL}:4444/wd/hub`)
 .build();
 
 module.exports = getDriver;
